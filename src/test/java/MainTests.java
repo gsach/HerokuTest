@@ -9,7 +9,7 @@ import org.junit.Test;
 public class MainTests {
 
     @Test
-    public void testThatAlwaysFails(){
-        Assert.assertEquals(1,2);
+    public void testThatAlwaysPasses(){
+        Assert.assertEquals(1,1);
     }
 }

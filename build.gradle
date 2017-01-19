@@ -20,6 +20,11 @@ dependencies {
   compile "com.heroku.sdk:heroku-jdbc:0.1.1"
   compile "org.postgresql:postgresql:9.4-1201-jdbc4"
   testCompile 'junit:junit:4.12'
+
+  def jmockVersion = "2.6.0"
+
+  testCompile "org.jmock:jmock:${jmockVersion}"
+  testCompile "org.jmock:jmock-junit4:${jmockVersion}"
 }
 
 task stage {
